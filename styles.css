@@ -1,0 +1,17 @@
+html {
+    background: grey;
+}
+
+body {
+    background: white;
+    text-align: center;
+    padding: 25px 0px;
+    width: 700px;
+    margin: 25px auto;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    width: 500px;
+}
