@@ -28,6 +28,7 @@ h1 {
 }
 
 input {
+    text-align: center;
     width: 60px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
@@ -59,4 +60,13 @@ button {
     border-radius: 5px;
     padding: 2px 10px;
     cursor: pointer;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
