@@ -8,7 +8,7 @@
 
 <body>
     <h1>RGB Colors</h1>
-    <p>An RGB Color is specified by: <span>rgb(red, green, blue)</span></p>
+    <p>An RGB Color is specified by: <span class="rgb-code">rgb(red, green, blue)</span></p>
     <p>
         The parameters red, green, and blue specify the intensity of the color:<br>0 <em>(lowest)</em> to 255
         <em>(highest)</em>
@@ -19,15 +19,15 @@
     <h3>Try it out for yourself...</h3>
 
     <p>
-        red: <input type="number" value="255">
-        green: <input type="number" value="255">
-        blue: <input type="number" value="255">
+        red: <input id="redIn" type="number" value="255">
+        green: <input id="greenIn" type="number" value="255">
+        blue: <input id="blueIn" type="number" value="0">
     </p>
 
-    <p>--</p>
+    <p id="display"></p>
 
     <p><button>Preview</button></p>
-    <p>rgb(255, 255, 0)</p>
+    <p class="rgb-code"></p>>rgb(255, 255, 0)</p>
 
     <hr>
 
